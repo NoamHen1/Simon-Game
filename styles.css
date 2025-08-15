@@ -59,6 +59,7 @@ body {
   .btn {
     height: 120px;
     width: 120px;
+    margin: 10px;
   }
 
 
@@ -72,4 +73,9 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 0;
   }
+
+  .row {
+    display: contents;
+  }
+  
 }
